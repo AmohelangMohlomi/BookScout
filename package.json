@@ -2,7 +2,7 @@
   "name": "bookscout",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/AmohelangMohlomi/BookScout/issues"
   },
-  "homepage": "https://github.com/AmohelangMohlomi/BookScout#readme"
+  "homepage": "https://github.com/AmohelangMohlomi/BookScout#readme",
+  "dependencies": {
+    "@types/node": "^24.9.1",
+    "node-fetch": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
 }
