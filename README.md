@@ -44,7 +44,7 @@ BookScout/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### Clone the Repository
 
@@ -69,10 +69,10 @@ You should see JSON output from the Google Books API and a cleaned list of book 
 
 ---
 
-## 💡 Example Output
+## Example Output
 
 ```
-✅ Transformed Books:
+Transformed Books:
 [
   {
     title: "Data Engineering with Python",
