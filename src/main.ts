@@ -1,12 +1,20 @@
 const { extractBooks } = require("./extract");
 const { transformBooks } = require("./transorm");
+const { loadBooks} = require("./load");
 
 
 async function main(){
+    
+    console.log("Extracting books ...");
     const data = await extractBooks("data engineering");
+
+    console.log("Transforming books ...");
     const books = transformBooks(data);
-    console.log("Transformed Books: ")
-    console.log(books)
+
+    console.log("Loading books ...")
+    await loadBooks(books);
+
+    console.log("ETL pipeline complete!")
 }
 
 main();

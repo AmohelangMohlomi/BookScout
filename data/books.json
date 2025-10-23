@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Fundamentals of Data Engineering",
+    "authors": [
+      "Joe Reis",
+      "Matt Housley"
+    ],
+    "publishedDate": "2022-06-22",
+    "description": "\"Data engineering has grown rapidly in the past decade, leaving many software engineers, data scientists, and analysts looking for a comprehensive view of this practice. With this practical book, you will learn how to plan and build systems to serve the needs of your organization and customers by evaluating the best technologies available in the framework of the data engineering lifecycle. Authors Joe Reis and Matt Housley walk you through the data engineering lifecycle and show you how to stitch together a variety of cloud technologies to serve the needs of downstream data consumers. You will understand how to apply the concepts of data generation, ingestion, orchestration, transformation, storage, governance, and deployment that are critical in any data environment regardless of the underlying technology. This book will help you: Assess data engineering problems using an end-to-end data framework of best practices Cut through marketing hype when choosing data technologies, architecture, and processes Use the data engineering lifecycle to design and build a robust architecture Incorporate data governance and security across the data engineering lifecycle.\" - from Publisher.",
+    "categories": [
+      "Computers"
+    ]
+  },
+  {
+    "title": "97 Things Every Data Engineer Should Know",
+    "authors": [
+      "Tobias Macey"
+    ],
+    "publishedDate": "2021-06-11",
+    "description": "Take advantage of today's sky-high demand for data engineers. With this in-depth book, current and aspiring engineers will learn powerful real-world best practices for managing data big and small. Contributors from notable companies including Twitter, Google, Stitch Fix, Microsoft, Capital One, and LinkedIn share their experiences and lessons learned for overcoming a variety of specific and often nagging challenges. Edited by Tobias Macey, host of the popular Data Engineering Podcast, this book presents 97 concise and useful tips for cleaning, prepping, wrangling, storing, processing, and ingesting data. Data engineers, data architects, data team managers, data scientists, machine learning engineers, and software engineers will greatly benefit from the wisdom and experience of their peers. Topics include: The Importance of Data Lineage - Julien Le Dem Data Security for Data Engineers - Katharine Jarmul The Two Types of Data Engineering and Data Engineers - Jesse Anderson Six Dimensions for Picking an Analytical Data Warehouse - Gleb Mezhanskiy The End of ETL as We Know It - Paul Singman Building a Career as a Data Engineer - Vijay Kiran Modern Metadata for the Modern Data Stack - Prukalpa Sankar Your Data Tests Failed! Now What? - Sam Bail",
+    "categories": [
+      "Computers"
+    ]
+  },
+  {
+    "title": "Fundamentals of Analytics Engineering",
+    "authors": [
+      "Dumky De Wilde",
+      "Fanny Kassapian",
+      "Jovan Gligorevic",
+      "Juan Manuel Perafan",
+      "Lasse Benninga",
+      "Ricardo Angel Granados Lopez",
+      "Taís Laurindo Pereira"
+    ],
+    "publishedDate": "2024-03-29",
+    "description": "Gain a holistic understanding of the analytics engineering lifecycle by integrating principles from both data analysis and engineering Key Features Discover how analytics engineering aligns with your organization's data strategy Access insights shared by a team of seven industry experts Tackle common analytics engineering problems faced by modern businesses Purchase of the print or Kindle book includes a free PDF eBook Book DescriptionWritten by a team of 7 industry experts, Fundamentals of Analytics Engineering will introduce you to everything from foundational concepts to advanced skills to get started as an analytics engineer. After conquering data ingestion and techniques for data quality and scalability, you’ll learn about techniques such as data cleaning transformation, data modeling, SQL query optimization and reuse, and serving data across different platforms. Armed with this knowledge, you will implement a simple data platform from ingestion to visualization, using tools like Airbyte Cloud, Google BigQuery, dbt, and Tableau. You’ll also get to grips with strategies for data integrity with a focus on data quality and observability, along with collaborative coding practices like version control with Git. You’ll learn about advanced principles like CI/CD, automating workflows, gathering, scoping, and documenting business requirements, as well as data governance. By the end of this book, you’ll be armed with the essential techniques and best practices for developing scalable analytics solutions from end to end.What you will learn Design and implement data pipelines from ingestion to serving data Explore best practices for data modeling and schema design Scale data processing with cloud based analytics platforms and tools Understand the principles of data quality management and data governance Streamline code base with best practices like collaborative coding, version control, reviews and standards Automate and orchestrate data pipelines Drive business adoption with effective scoping and prioritization of analytics use cases Who this book is for This book is for data engineers and data analysts considering pivoting their careers into analytics engineering. Analytics engineers who want to upskill and search for gaps in their knowledge will also find this book helpful, as will other data professionals who want to understand the value of analytics engineering in their organization's journey toward data maturity. To get the most out of this book, you should have a basic understanding of data analysis and engineering concepts such as data cleaning, visualization, ETL and data warehousing.",
+    "categories": [
+      "Computers"
+    ]
+  },
+  {
+    "title": "Engineering Education 4.0",
+    "authors": [
+      "Sulamith Frerich",
+      "Tobias Meisen",
+      "Anja Richert",
+      "Marcus Petermann",
+      "Sabina Jeschke",
+      "Uwe Wilkesmann",
+      "A. Erman Tekkaya"
+    ],
+    "publishedDate": "2017-04-12",
+    "description": "This book presents a collection of results from the interdisciplinary research project “ELLI” published by researchers at RWTH Aachen University, the TU Dortmund and Ruhr-Universität Bochum between 2011 and 2016. All contributions showcase essential research results, concepts and innovative teaching methods to improve engineering education. Further, they focus on a variety of areas, including virtual and remote teaching and learning environments, student mobility, support throughout the student lifecycle, and the cultivation of interdisciplinary skills.",
+    "categories": [
+      "Computers"
+    ]
+  },
+  {
+    "title": "Data Engineering Concepts: From Basics To Advance Techniques",
+    "authors": [
+      "Dr. RVS Praveen"
+    ],
+    "publishedDate": "2024-09-23",
+    "description": "Data engineering is a field that focuses on designing, building, and maintaining data systems. Data engineers work with large amounts of data and are responsible for ensuring that it is accessible, reliable, and secure. They use a variety of tools and techniques to extract, transform, and load data into data warehouses and data lakes. One of the key tasks of a data engineer is to design data pipelines. Data pipelines are a series of steps that data goes through to be processed and analyzed. These steps may include data extraction, data cleaning, data transformation, and data loading. Data engineers use tools like Apache Kafka and Apache Airflow to automate these processes. Data engineers also work with data storage systems. Data warehouses are large repositories of data that are optimized for analytical queries. Data lakes, on the other hand, are less structured and can store a wide variety of data types. Data engineers use tools like Hadoop and Apache Spark to manage and process data in these systems. In addition to data pipelines and storage systems, data engineers are responsible for data quality and governance. They develop data quality checks to ensure that data is accurate and consistent. They also implement data governance policies to protect sensitive data and comply with regulations.",
+    "categories": [
+      "Antiques & Collectibles"
+    ]
+  },
+  {
+    "title": "Practical MLOps",
+    "authors": [
+      "Noah Gift",
+      "Alfredo Deza"
+    ],
+    "publishedDate": "2021-09-14",
+    "description": "Getting your models into production is the fundamental challenge of machine learning. MLOps offers a set of proven principles aimed at solving this problem in a reliable and automated way. This insightful guide takes you through what MLOps is (and how it differs from DevOps) and shows you how to put it into practice to operationalize your machine learning models. Current and aspiring machine learning engineers--or anyone familiar with data science and Python--will build a foundation in MLOps tools and methods (along with AutoML and monitoring and logging), then learn how to implement them in AWS, Microsoft Azure, and Google Cloud. The faster you deliver a machine learning system that works, the faster you can focus on the business problems you're trying to crack. This book gives you a head start. You'll discover how to: Apply DevOps best practices to machine learning Build production machine learning systems and maintain them Monitor, instrument, load-test, and operationalize machine learning systems Choose the correct MLOps tools for a given machine learning task Run machine learning models on a variety of platforms and devices, including mobile phones and specialized hardware",
+    "categories": [
+      "Computers"
+    ]
+  },
+  {
+    "title": "Data Engineering Best Practices",
+    "authors": [
+      "Richard J. Schiller",
+      "David Larochelle"
+    ],
+    "publishedDate": "2024-10-11",
+    "description": "Explore modern data engineering techniques and best practices to build scalable, efficient, and future-proof data processing systems across cloud platforms Key Features Architect and engineer optimized data solutions in the cloud with best practices for performance and cost-effectiveness Explore design patterns and use cases to balance roles, technology choices, and processes for a future-proof design Learn from experts to avoid common pitfalls in data engineering projects Purchase of the print or Kindle book includes a free PDF eBook Book DescriptionRevolutionize your approach to data processing in the fast-paced business landscape with this essential guide to data engineering. Discover the power of scalable, efficient, and secure data solutions through expert guidance on data engineering principles and techniques. Written by two industry experts with over 60 years of combined experience, it offers deep insights into best practices, architecture, agile processes, and cloud-based pipelines. You’ll start by defining the challenges data engineers face and understand how this agile and future-proof comprehensive data solution architecture addresses them. As you explore the extensive toolkit, mastering the capabilities of various instruments, you’ll gain the knowledge needed for independent research. Covering everything you need, right from data engineering fundamentals, the guide uses real-world examples to illustrate potential solutions. It elevates your skills to architect scalable data systems, implement agile development processes, and design cloud-based data pipelines. The book further equips you with the knowledge to harness serverless computing and microservices to build resilient data applications. By the end, you'll be armed with the expertise to design and deliver high-performance data engineering solutions that are not only robust, efficient, and secure but also future-ready.What you will learn Architect scalable data solutions within a well-architected framework Implement agile software development processes tailored to your organization's needs Design cloud-based data pipelines for analytics, machine learning, and AI-ready data products Optimize data engineering capabilities to ensure performance and long-term business value Apply best practices for data security, privacy, and compliance Harness serverless computing and microservices to build resilient, scalable, and trustworthy data pipelines Who this book is for If you are a data engineer, ETL developer, or big data engineer who wants to master the principles and techniques of data engineering, this book is for you. A basic understanding of data engineering concepts, ETL processes, and big data technologies is expected. This book is also for professionals who want to explore advanced data engineering practices, including scalable data solutions, agile software development, and cloud-based data processing pipelines.",
+    "categories": [
+      "Computers"
+    ]
+  },
+  {
+    "title": "Data Engineering with Apache Spark, Delta Lake, and Lakehouse",
+    "authors": [
+      "Manoj Kukreja",
+      "Danil Zburivsky"
+    ],
+    "publishedDate": "2021-10-22",
+    "description": "Understand the complexities of modern-day data engineering platforms and explore strategies to deal with them with the help of use case scenarios led by an industry expert in big data Key FeaturesBecome well-versed with the core concepts of Apache Spark and Delta Lake for building data platformsLearn how to ingest, process, and analyze data that can be later used for training machine learning modelsUnderstand how to operationalize data models in production using curated dataBook Description In the world of ever-changing data and schemas, it is important to build data pipelines that can auto-adjust to changes. This book will help you build scalable data platforms that managers, data scientists, and data analysts can rely on. Starting with an introduction to data engineering, along with its key concepts and architectures, this book will show you how to use Microsoft Azure Cloud services effectively for data engineering. You'll cover data lake design patterns and the different stages through which the data needs to flow in a typical data lake. Once you've explored the main features of Delta Lake to build data lakes with fast performance and governance in mind, you'll advance to implementing the lambda architecture using Delta Lake. Packed with practical examples and code snippets, this book takes you through real-world examples based on production scenarios faced by the author in his 10 years of experience working with big data. Finally, you'll cover data lake deployment strategies that play an important role in provisioning the cloud resources and deploying the data pipelines in a repeatable and continuous way. By the end of this data engineering book, you'll know how to effectively deal with ever-changing data and create scalable data pipelines to streamline data science, ML, and artificial intelligence (AI) tasks. What you will learnDiscover the challenges you may face in the data engineering worldAdd ACID transactions to Apache Spark using Delta LakeUnderstand effective design strategies to build enterprise-grade data lakesExplore architectural and design patterns for building efficient data ingestion pipelinesOrchestrate a data pipeline for preprocessing data using Apache Spark and Delta Lake APIsAutomate deployment and monitoring of data pipelines in productionGet to grips with securing, monitoring, and managing data pipelines models efficientlyWho this book is for This book is for aspiring data engineers and data analysts who are new to the world of data engineering and are looking for a practical guide to building scalable data platforms. If you already work with PySpark and want to use Delta Lake for data engineering, you'll find this book useful. Basic knowledge of Python, Spark, and SQL is expected.",
+    "categories": [
+      "Computers"
+    ]
+  },
+  {
+    "title": "Requirements Engineering: Foundation for Software Quality",
+    "authors": [
+      "Daniel Mendez",
+      "Ana Moreira"
+    ],
+    "publishedDate": "2024-03-29",
+    "description": "This book constitutes the refereed proceedings of the 30th International Working Conference on Requirements Engineering: Foundation for Software Quality, REFSQ 2024, held in Winterthur, Switzerland, during April 8–12, 2024. The 14 full papers and 8 short papers included in this book were carefully reviewed and selected from 59 submissions. They are organized in topical sections as follows: quality models for requirements engineering; quality requirements; explainability with and in requirements engineering; artificial intelligence for requirements engineering; natural language processing for requirements engineering; requirements engineering for artificial intelligence; crowd-based requirements engineering; and emerging topics and challenges in requirements engineering.",
+    "categories": [
+      "Computers"
+    ]
+  },
+  {
+    "title": "T-Bytes IoT & AR Industry",
+    "authors": [
+      "V Gupta"
+    ],
+    "publishedDate": "2019-12-28",
+    "description": "This document brings together a set of latest data points and publicly available information relevant for Digital Customer Expierence. We are very excited to share this content and believe that readers will benefit immensely from this periodic publication immensely.",
+    "categories": [
+      "Computers"
+    ]
+  }
+]
