@@ -106,7 +106,7 @@ ETL pipeline complete!
 
 ---
 
-## Technologies Used
+##Technologies Used
 
 * **TypeScript** — for static typing and clean code structure
 * **Node.js** — to run server-side scripts and handle file I/O

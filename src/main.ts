@@ -11,10 +11,10 @@ async function main(){
     console.log("Transforming books ...");
     const books = transformBooks(data);
 
-    console.log("Loading books ...")
+    console.log("Loading books ...");
     await loadBooks(books);
 
-    console.log("ETL pipeline complete!")
+    console.log("ETL pipeline complete!");
 }
 
 main();
