@@ -1,30 +1,31 @@
 # BookScout
 
-A beginner-friendly **TypeScript ETL pipeline** that extracts book data from the **Google Books API**, transforms it into clean, typed objects, and prepares it for future **book recommendation** logic.
+A beginner-friendly **TypeScript ETL pipeline** that extracts, transforms, and loads book data from the **Google Books API** — preparing it for personalized recommendations.
 
-This project helps you learn **TypeScript**, **API data handling**, and basic **data engineering** concepts — all in one simple project.
+This project was built to **learn TypeScript** while practicing **data engineering concepts** like ETL, API integration, and structured data modeling.
 
 ---
 
 ## Project Overview
 
-**BookScout** performs a basic ETL (Extract, Transform, Load) workflow:
+**BookScout** performs a complete ETL (Extract, Transform, Load) workflow:
 
-| Step          | Description                                                                                                             |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Extract**   | Fetch book data from the [Google Books API](https://developers.google.com/books/docs/v1/using) based on a search query. |
-| **Transform** | Clean and normalize the raw JSON response into consistent, typed `Book` objects using TypeScript interfaces.            |
-| **Load**      | (Coming soon) Store or use transformed book data for personalized recommendations.                                      |
+| Stage         | Description                                                                                                                    |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Extract**   | Fetches raw book data from the [Google Books API](https://developers.google.com/books/docs/v1/using) based on a search term.   |
+| **Transform** | Cleans, structures, and normalizes the data into consistent, strongly typed `Book` objects using TypeScript interfaces.        |
+| **Load**      | Saves the transformed data into a local `books.json` file, creating a reusable dataset for future analysis or recommendations. |
 
 ---
 
 ## What You’ll Learn
 
-* Setting up a **TypeScript project** from scratch
-* Using **fetch()** in Node.js to call APIs
+* Setting up and running a **TypeScript project**
+* Making API requests using **fetch()** in Node.js
 * Defining and enforcing **TypeScript interfaces**
-* Building a simple **ETL pipeline**
-* Preparing data for future **recommendation logic**
+* Structuring an **ETL pipeline** from scratch
+* Working with **file I/O** in Node.js
+* Preparing data for a **recommendation system**
 
 ---
 
@@ -33,10 +34,13 @@ This project helps you learn **TypeScript**, **API data handling**, and basic **
 ```
 BookScout/
 ├── src/
-│   ├── extract.ts        # Extracts book data from Google Books API
-│   ├── transform.ts      # Transforms and cleans API data
-│   ├── types.ts          # TypeScript interfaces for structured data
-│   └── main.ts           # Entry point (runs extract + transform)
+│   ├── extract.ts        # Extract: Fetches book data from the Google Books API
+│   ├── transform.ts      # Transform: Cleans and normalizes API data
+│   ├── load.ts           # Load: Saves transformed books into a local JSON file
+│   ├── type.ts          # TypeScript interfaces for structured Book objects
+│   └── main.ts           # Orchestrates the full ETL process
+├── data/
+│   └── books.json        # Output file containing transformed book data
 ├── package.json
 ├── tsconfig.json
 └── README.md
@@ -59,64 +63,74 @@ cd BookScout
 npm install
 ```
 
-### Run the Project
+### Run the ETL Pipeline
 
 ```bash
 npx ts-node src/main.ts
 ```
 
-You should see JSON output from the Google Books API and a cleaned list of book objects.
+You should see output similar to:
+
+```
+Extracting books...
+Transforming books...
+Loading books to file...
+Books successfully saved to ./data/books.json
+ETL pipeline complete!
+```
 
 ---
 
-## Example Output
+## Example Output (books.json)
 
-```
-Transformed Books:
+```json
 [
   {
-    title: "Data Engineering with Python",
-    authors: ["Paul Crickard"],
-    publishedDate: "2020",
-    description: "Learn to design and build data pipelines...",
-    categories: ["Computers"],
-    averageRating: 4.5
+    "title": "Data Engineering with Python",
+    "authors": ["Paul Crickard"],
+    "publishedDate": "2020",
+    "description": "Learn to design and build data pipelines...",
+    "categories": ["Computers"],
+    "averageRating": 4.5
   },
   {
-    title: "Fundamentals of Data Engineering",
-    authors: ["Joe Reis", "Matt Housley"],
-    publishedDate: "2022",
-    ...
+    "title": "Fundamentals of Data Engineering",
+    "authors": ["Joe Reis", "Matt Housley"],
+    "publishedDate": "2022",
+    "description": "A comprehensive guide to modern data engineering practices.",
+    "categories": ["Technology"],
+    "averageRating": 4.7
   }
 ]
 ```
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-* **TypeScript** — typed JavaScript for cleaner, safer code
-* **Node.js** — runtime environment for executing code
-* **Google Books API** — source of book data
-* **ts-node** — runs TypeScript directly without compilation
+* **TypeScript** — for static typing and clean code structure
+* **Node.js** — to run server-side scripts and handle file I/O
+* **Google Books API** — data source for book information
+* **ts-node** — runs TypeScript files without pre-compiling
 
 ---
 
 ## Next Steps (Upcoming Features)
 
-* [ ] **Load stage:** Save transformed books into a local JSON or SQLite database
-* [ ] **Recommendation engine:** Suggest books based on user interests or previous reads
-* [ ] **Simple CLI or Web UI:** Search and view recommended books interactively
+* [ ] Implement a **recommendation engine** based on categories, authors, or keywords
+* [ ] Add a **CLI interface** to search and recommend books interactively
+* [ ] Experiment with **data persistence** using a local database (SQLite )
+* [ ] Visualize results in a simple **web UI**
 
 ---
 
 ## Author
 
 **Amohelang Mohlomi**
-Learning data engineering + TypeScript one project at a time 🚀
+Exploring data engineering and TypeScript through hands-on projects 
 
 ---
 
 ## License
 
-MIT License — feel free to use and adapt for learning or personal projects.
+MIT License — free to use, modify, and learn from.
